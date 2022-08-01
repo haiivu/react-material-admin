@@ -56,8 +56,8 @@ function Login(props) {
             </Tabs>
             {activeTabId === 0 && (
                 <React.Fragment>
-                  <Typography variant="h1" className={classes.greeting}>
-                    Good Morning, User
+                  <Typography variant="h2" className={classes.greeting}>
+                    Welcome to admin FreelanceVN website
                   </Typography>
                   <Button size="large" className={classes.googleButton}>
                     <img src={google} alt="google" className={classes.googleIcon} />
